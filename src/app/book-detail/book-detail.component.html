@@ -1,0 +1,23 @@
+<div class="container" *ngIf="book">
+    <h2>{{ book.volumeInfo.title }}</h2>
+    <div class="viewOrientation">
+        <div class="imgBook">
+            <img *ngIf="book.volumeInfo.imageLinks" [src]="book.volumeInfo.imageLinks.thumbnail" alt="Capa do Livro">
+        </div>
+        <div class="infoLivro">
+            <p><strong>Autores:</strong> {{ book.volumeInfo.authors?.join(', ') }}</p>
+            <p><strong>Editora:</strong> {{ book.volumeInfo.publisher }}</p>
+            <p><strong>Data de Publicação:</strong> {{ book.volumeInfo.publishedDate }}</p>
+            <p><strong>Descrição:</strong> {{ book.volumeInfo.description }}</p>
+            <p><strong>Número de Páginas:</strong> {{ book.volumeInfo.pageCount }}</p>
+            <p><strong>Categoria:</strong> {{ book.volumeInfo.mainCategory }}</p>
+            <p><strong>País:</strong> {{ book.volumeInfo.saleInfo?.country }}</p>
+            <p><strong>Disponível para venda:</strong> {{ book.volumeInfo.saleInfo?.saleability }}</p>
+            <p><strong>Ebook:</strong> {{ book.volumeInfo.saleInfo?.isEbook }}</p>
+            <p><strong>Valor:</strong> {{ book.volumeInfo.saleInfo?.listPrice?.amountw }} {{ book.volumeInfo.saleInfo?.listPrice?.currencyCode }}</p>
+            <p><strong>Varejo:</strong> {{ book.volumeInfo.saleInfo?.retailPrice?.amount }} {{ book.volumeInfo.saleInfo?.retailPrice?.currencyCode }}</p>
+            <p><strong>Link para comprar:</strong> {{ book.volumeInfo.saleInfo?.buyLink }}</p>
+        </div>
+    </div>
+</div>
+  
