@@ -1,0 +1,11 @@
+{
+    "books": [
+      { "id": 1, "title": "Book 1", "author": "Author 1", "totalPages": 300, "currentPage": 150 },
+      { "id": 2, "title": "Book 2", "author": "Author 2", "totalPages": 200, "currentPage": 50 }
+    ],
+    "reviews": [
+      { "id": 1, "bookId": 1, "rating": 5, "comment": "Great book!" },
+      { "id": 2, "bookId": 2, "rating": 4, "comment": "Good read." }
+    ]
+  }
+  

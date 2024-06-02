@@ -1,67 +1,27 @@
-# Atividade03_Compiladores
- 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LeonardoFinavaro/Atividade03_Compiladores/blob/main/LICENSE) 
+# Readbook
 
-# Sobre o projeto
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
-Este é um sistema de leitor de livros online, onde o usuário pode adicionar livros que está lendo, procurar por novos livros, atualizar o progresso de leitura e avaliar os livros já lidos.
+## Development server
 
-## Tecnologias Utilizadas
-- Angular
-- JSON Server (ou Firebase) para armazenamento de dados
-- Bootstrap (ou outro framework CSS) para estilização
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Configuração e Execução
+## Code scaffolding
 
-### Pré-requisitos
-- Node.js instalado
-- Angular CLI instalada
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Passos para Configuração
-1. Clone o repositório:
-   sh
-   git clone https://github.com/seu-usuario/leitor-de-livro.git
-   cd online-book-reader
-   
+## Build
 
-2. Instale as dependências:
-   sh
-   npm install
-   
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-3. Configure o servidor de dados (JSON Server ou Firebase):
-   - *JSON Server*:
-     sh
-     npm install -g json-server
-     json-server --watch db.json
+## Running unit tests
 
-4. Inicie a aplicação Angular:
-   sh
-   ng serve
-   
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-5. Acesse a aplicação no navegador:
-   
-   http://localhost:4200
-   
+## Running end-to-end tests
 
-## Estrutura do Projeto
-- src/: Diretório principal da aplicação Angular.
-- src/app/: Diretório dos componentes e serviços da aplicação.
-- src/assets/: Diretório para arquivos estáticos.
-- db.json: Arquivo de configuração do JSON Server.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Funcionalidades
-1. Procurar por livros.
-2. Ver detalhes do livro.
-   
-# Autor
+## Further help
 
-Nome: Guilherme Luis de Lima
-RA: 2101205
-
-Nome:  Rafael Machiaveli 
-RA: 2106575
-
-Nome: Leonardo de Paiva Finavaro
-RA: 2104619
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
